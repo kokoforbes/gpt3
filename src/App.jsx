@@ -11,6 +11,7 @@ import CTA from "./components/cta/CTA";
 import Blog from "./containers/blog/Blog";
 import Footer from "./containers/footer/Footer";
 import "./App.css";
+import "./index.css";
 
 const App = () => {
   return (
