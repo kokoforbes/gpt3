@@ -10,8 +10,8 @@ import Possibility from "./containers/possibility/Possibility";
 import CTA from "./components/cta/CTA";
 import Blog from "./containers/blog/Blog";
 import Footer from "./containers/footer/Footer";
-import "./App.css";
-import "./index.css";
+import "./App.scss";
+import "./index.scss";
 
 const App = () => {
   return (
