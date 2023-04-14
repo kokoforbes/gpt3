@@ -16,17 +16,19 @@ import "./index.scss";
 const App = () => {
   return (
     <div className='app'>
-      <div className='gradient__bg'>
-        <Navbar />
-        <Header />
+      <div className='container'>
+        <div className='gradient__bg'>
+          <Navbar />
+          <Header />
+        </div>
+        <Brand />
+        <WhatGPT3 />
+        <Features />
+        <Possibility />
+        <CTA />
+        <Blog />
+        <Footer />
       </div>
-      <Brand />
-      <WhatGPT3 />
-      <Features />
-      <Possibility />
-      <CTA />
-      <Blog />
-      <Footer />
     </div>
   );
 };
