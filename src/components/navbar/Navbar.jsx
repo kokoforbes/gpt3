@@ -63,7 +63,7 @@ const Navbar = () => {
         {toggleMenu && (
           <div className='gpt3__navbar-menu_container scale-up-center'>
             <div className='gpt3__navbar-menu_container-links'>
-              <Menu />
+              <Menu onClick={() => setToggleMenu(false)} />
               <div className='gpt3__navbar-menu_container-sign'>
                 <p>Sign In</p>
                 <button type='button'>Sign Up</button>
